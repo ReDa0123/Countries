@@ -1,3 +1,5 @@
+This a solution of frontendmentor's challange Countries REST API with mode changer using React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
