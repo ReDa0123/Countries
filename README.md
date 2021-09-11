@@ -1,4 +1,4 @@
-This a solution of frontendmentor's challange Countries REST API with mode changer using React.
+This a solution of frontendmentor's challange Countries REST API with mode changer using React. Click on countries to see more details and use the filters to filter them. You can also click through countrie's neghbors in the detailed country pages!
 
 # Getting Started with Create React App
 
