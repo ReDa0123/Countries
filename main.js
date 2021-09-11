@@ -1,4 +1,4 @@
-import * as modeChanger from "/darkMode.js"
+import * as modeChanger from "/Countries/darkMode.js"
 
 const API_URL = "https://restcountries.eu/rest/v2/all?fields=name;population;region;capital;flag;alpha3Code"
 

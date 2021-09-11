@@ -1,4 +1,4 @@
-import * as modeChanger from "/darkMode.js"
+import * as modeChanger from "/Countries/darkMode.js"
 
 const url = new URL(window.location.href)
 const countryCode = url.searchParams.get("code")
