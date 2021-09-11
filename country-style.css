@@ -77,7 +77,6 @@ h4.country-name{
 .border-countries{ 
     grid-area: borders;
     width: 100%;
-    margin-bottom: 2rem;
 }
 
 .borderes{ 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="country-style.css">
+
+    <script src="country.js" type="module"></script>
+    <title>Country</title>
+</head>
+<body>
+    <header>
+        <h1>Where in the World?</h1>
+        <div class="mode" tabindex="0"><div class="mode-image"></div><span data-mode-text>Dark Mode</span></div>
+    </header>
+    <section>
+        <div class="btn-container">
+            <div class="arrow"></div>
+            <button class="back-btn btn">
+                Back
+            </button>
+        </div>
+        <div class="main-container">
+            <div class="flag-big"></div>
+            <div class="info-container">
+                <div class="primary-info">
+                    <h4 class="country-name"></h4>
+                    <div class="native-name before-text"></div>
+                    <div class="population before-text"></div>
+                    <div class="region before-text"></div>
+                    <div class="sub-region before-text"></div>
+                    <div class="capital before-text"></div>
+                </div>
+                <div class="secondary-info">
+                    <div class="domain before-text"></div>
+                    <div class="currencies before-text"></div>
+                    <div class="languages before-text"></div>
+                </div>
+                <div class="border-countries">
+                    <span class="borderes">Border Countries:</span>
+                    <div class="borderes-btns">
+                        <!-- <button class="border-btn btn">
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

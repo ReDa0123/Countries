@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Where in the World?</h1>
+        <div class="mode" tabindex="0"><div class="mode-image"></div><span data-mode-text>Dark Mode</span></div>
+    </header>
+    <section>
+        <div class="search-container">
+            <div class="search-btn"></div>
+            <input type="text" name="search" id="search" placeholder="Search for a country...">
+        </div>
+        <select name="regions-select" id="regions-select">
+            <option value selected disabled>Filter by Region</option>
+            <option value>All</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+            <option value="Antarctica">Antarctica</option>
+        </select>
+        <div class="countries-container" data-countries-container>
+        </div>
+    </section>
+    <template class="country-template" data-country-template>
+        <div class="country-container">
+            <img src="czech-flag.png" alt="Flag" class="flag">
+            <h4 class="country-name before-text"></h4>
+            <div class="population before-text"></div>
+            <div class="region before-text"></div>
+            <div class="capital before-text"></div>
+        </div>
+    </template>
+</body>
+</html>

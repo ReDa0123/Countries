@@ -35,11 +35,6 @@ h1, h4{
     font-weight: 800;
 }
 
-a{ 
-    color: inherit; 
-    text-decoration: inherit;
-}
-
 header, #search, #regions-select, .country-container{ box-shadow: 0 0 1rem var(--shadow);}
 
 header{
@@ -68,7 +63,7 @@ header h1{ font-size: 18px;}
     top: 0;
     bottom: 0;
     width: 1.3em;
-    background-image: url('assets/moon-svgrepo-com.svg');
+    background-image: url('images/moon-svgrepo-com.svg');
     background-repeat: no-repeat;
 }
 
@@ -94,7 +89,7 @@ header h1{ font-size: 18px;}
     left: 1rem;
     width: 2rem;
     height: 50%;
-    background-image: url('assets/magnifying-glass-svgrepo-com.svg');
+    background-image: url('images/magnifying-glass-svgrepo-com.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
