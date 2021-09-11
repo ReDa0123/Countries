@@ -3,15 +3,20 @@ const modeButton = document.querySelector(".mode")
 const modeImage = document.querySelector(".mode-image")
 const searchButton = document.querySelector(".search-btn")
 
-let darkMode = localStorage.getItem("darkmode")
+let darkMode = localStorage.getItem("darkmode") === "true"
+
+if (darkMode){
+    darkMode = !darkMode
+    changeMode()
+}
+
 
 export function changeMode(){
     if (searchBar){
         searchBar.classList.toggle("dark-search")
     }
-    
     darkMode = !darkMode
-    if (darkMode){
+    if (!darkMode){
         modeButton.querySelector("[data-mode-text]").innerText = "Dark Mode"
         modeImage.style.filter = ""
         document.documentElement.style.setProperty("--bg", "var(--light-bg)")
@@ -38,4 +43,5 @@ export function changeMode(){
         searchButton.style.filter = whiteyfy
     }
     localStorage.setItem("darkmode", true)
+    
 }

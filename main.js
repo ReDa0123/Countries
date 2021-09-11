@@ -14,10 +14,6 @@ const regionMap = new Map()
 let allCountries
 let selectedCountries
 
-if (localStorage.getItem("darkmode") === "true"){
-    modeChanger.changeMode()
-}
-
 modeButton.addEventListener("click", modeChanger.changeMode)
 modeButton.addEventListener("keyup", e => {
     if (e.keyCode === 13){

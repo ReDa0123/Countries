@@ -8,9 +8,6 @@ const API_URL = `https://restcountries.eu/rest/v2/alpha/${countryCode}`
 const modeButton = document.querySelector(".mode")
 const backButton = document.querySelector(".back-btn")
 
-if (localStorage.getItem("darkmode") === "true"){
-    modeChanger.changeMode()
-}
 
 modeButton.addEventListener("click", modeChanger.changeMode)
 modeButton.addEventListener("keyup", e => {
